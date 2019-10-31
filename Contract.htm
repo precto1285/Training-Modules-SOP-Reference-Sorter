@@ -101,22 +101,71 @@
               <!-- important list body -->
               <div class="tab-pane fade" id="important" role="tabpanel" aria-labelledby="important-list">
                 <ul class="list-group">
-                  <li class="list-group-item">Name and Residency of Buyer</li>
-                  <li class="list-group-item">Name and Residency of Seller</li>
-                  <li class="list-group-item">Purchase Date</li>
-                  <li class="list-group-item">Purchase Item</li>
-                  <li class="list-group-item">Item Manufacturing Details</li>
-                  <li class="list-group-item">Signature</li>
+                  <li class="list-group-item">
+                    <button class="btn btn-block bg-white text-dark">
+                      Name and Residency of Buyer
+                    </button>
+                  </li>
+                  <li class="list-group-item">
+                    <button class="btn btn-block bg-white text-dark">
+                      Name and Residency of Seller
+                    </button>
+                  </li>
+                  <li class="list-group-item"><button class="btn btn-block bg-white text-dark">
+                      Purchase Date
+                    </button>
+                  </li>
+                  <li class="list-group-item">
+                    <button class="btn btn-block bg-white text-dark">
+                      Purchase Item
+                    </button>
+                  </li>
+                  <li class="list-group-item">
+                    <button class="btn btn-block bg-white text-dark">
+                      Item Manufacturing Details
+                    </button>
+                  </li>
+                  <li class="list-group-item">
+                    <button class="btn btn-block bg-white text-dark">
+                      Signature
+                    </button>
+                  </li>
                 </ul>
               </div>
               <!-- sample body -->
               <div class="tab-pane fade" id="sample" role="tabpanel" aria-labelledby="sample-list">
-                <div class="row">
-                  <center>
-                    <img src="images/contract 1.jpg" alt="contract1" width="100%">
-                    <img src="images/contract2.png" alt="contract2" width="100%">
-                    <img src="images/teslaContract.jpg" alt="tesla_contract" width="100%">
-                  </center>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner bg-secondary">
+                    <div class="carousel-item active">
+                      <center>
+                        <img src="images/contract 1.jpg" alt="contract1" width="100%">
+                      </center>
+                    </div>
+                    <div class="carousel-item">
+                      <center>
+                        <img src="images/contract2.png" alt="contract2" width="100%">
+                      </center>
+                    </div>
+                    <div class="carousel-item">
+                      <center>
+                        <img src="images/teslaContract.jpg" alt="tesla_contract" width="100%">
+                      </center>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
                 </div>
               </div>
             </div>
