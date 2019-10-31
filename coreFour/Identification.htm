@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Form Documents</title>
+  <title>Identification</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,8 +18,9 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-success">
       <!-- Link to Home Page -->
-      <a class="navbar-brand" href="index.htm"><img
-          src="images/iconfinder_Brightness_energy_glow_light_solar_sun_sunshine_2992431.png" alt="sun" width="12%"></a>
+      <a class="navbar-brand" href="../index.htm"><img
+          src="../images/iconfinder_Brightness_energy_glow_light_solar_sun_sunshine_2992431.png" alt="sun"
+          width="12%"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -47,7 +48,7 @@
     </nav>
     <!-- Page Title -->
     <div class="jumbotron bg-info py-5 text-white text-center">
-      <h1>Form</h1>
+      <h1>Identification</h1>
     </div>
     <!-- Overview -->
     <div class="row mb-4">
@@ -77,7 +78,7 @@
               <!-- Link to Important details -->
               <a class="list-group-item list-group-item-action" id="important-list" data-toggle="list" href="#important"
                 role="tab" aria-controls="profile">Important details</a>
-              <!-- link to Samples -->
+              <!-- Link to Samples -->
               <a class="list-group-item list-group-item-action" id="sample-list" data-toggle="list" href="#sample"
                 role="tab" aria-controls="messages">Samples</a>
             </div>
@@ -93,21 +94,14 @@
               <!-- description body -->
               <div class="tab-pane fade show active" id="description" role="tabpanel"
                 aria-labelledby="description-list">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quam aliquam dignissimos accusamus
-                  quibusdam? Unde voluptas eos cupiditate similique, praesentium incidunt soluta explicabo recusandae
-                  delectus temporibus repellendus ex totam. Asperiores porro commodi, est exercitationem fugiat eligendi
-                  deserunt a corporis, esse doloremque voluptatibus, ratione assumenda dolorem doloribus maiores
-                  accusamus voluptates in.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat illo necessitatibus eius dignissimos
+                  quis consequuntur, facilis omnis? Nostrum aliquid at in ea. Perferendis, nesciunt pariatur maxime ab
+                  officiis tempore dolore officia? Neque tenetur accusamus numquam voluptatum omnis illum assumenda
+                  reprehenderit sint repellendus esse labore tempora ex consectetur, cumque fugit explicabo?</p>
               </div>
-              <!-- important details body -->
+              <!-- important list body -->
               <div class="tab-pane fade" id="important" role="tabpanel" aria-labelledby="important-list">
                 <ul class="list-group">
-                  <li class="list-group-item">
-                    <button type="button" data-toggle="modal" data-target="#appID"
-                      class="btn btn-block bg-white text-dark">
-                      Application ID
-                    </button>
-                  </li>
                   <li class="list-group-item">
                     <button type="button" data-toggle="modal" data-target="#name"
                       class="btn btn-block bg-white text-dark">
@@ -115,41 +109,47 @@
                     </button>
                   </li>
                   <li class="list-group-item">
-                    <button type="button" data-toggle="modal" data-target="#appType"
+                    <button type="button" data-toggle="modal" data-target="#idNum"
                       class="btn btn-block bg-white text-dark">
-                      Application Type
+                      ID number
                     </button>
                   </li>
                   <li class="list-group-item">
-                    <button type="button" data-toggle="modal" data-target="#uid"
+                    <button type="button" data-toggle="modal" data-target="#exDate"
                       class="btn btn-block bg-white text-dark">
-                      UID
-                    </button>
-                  </li>
-                  <li class="list-group-item">
-                    <button type="button" data-toggle="modal" data-target="#vin"
-                      class="btn btn-block bg-white text-dark">
-                      VIN#
-                    </button>
-                  </li>
-                  <li class="list-group-item">
-                    <button type="button" data-toggle="modal" data-target="#signature"
-                      class="btn btn-block bg-white text-dark">
-                      Signature
+                      Expiration Date
                     </button>
                   </li>
                 </ul>
               </div>
               <!-- sample body -->
               <div class="tab-pane fade" id="sample" role="tabpanel" aria-labelledby="sample-list">
-                <div class="row center bg-secondary">
-                  <div class="col"></div>
-                  <div class="col">
-                    <center>
-                      <img src="images/appForm.jpg" alt="form" width="200%">
-                    </center>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner bg-secondary">
+                    <div class="carousel-item active">
+                      <center>
+                        <img src="../images/CADL.jpg" alt="cadl" width="75%">
+                      </center>
+                    </div>
+                    <div class="carousel-item">
+                      <center>
+                        <img src="../images/CADL2.jpg" alt="cadl" width="75%">
+                      </center>
+                    </div>
                   </div>
-                  <div class="col"></div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
                 </div>
               </div>
             </div>
@@ -160,7 +160,7 @@
     <div class="row">
       <div class="col-lg-12 mt-5">
         <center>
-          <img src="images/recycle.jpg" alt="recycle" width="50%">
+          <img src="../images/recycle.jpg" alt="recycle" width="50%">
         </center>
       </div>
     </div>
@@ -168,40 +168,12 @@
 
   <!-- Modals -->
 
-
-  <!-- appID -->
-  <div class="modal fade" id="appID" tabindex="-1" role="dialog" aria-labelledby="appIDLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="appIDLabel">Application ID#</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <h3>What to Look For:</h3>
-          <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime placeat aliquid beatae eos
-              itaque.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, laboriosam.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus minus alias natus.</li>
-          </ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- name -->
   <div class="modal fade" id="name" tabindex="-1" role="dialog" aria-labelledby="nameLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="nameLabel">Applicant Name</h5>
+          <h5 class="modal-title" id="nameLabel">Name</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -223,12 +195,12 @@
     </div>
   </div>
 
-  <!-- appType -->
-  <div class="modal fade" id="appType" tabindex="-1" role="dialog" aria-labelledby="appTypeLabel" aria-hidden="true">
+  <!-- idNum -->
+  <div class="modal fade" id="idNum" tabindex="-1" role="dialog" aria-labelledby="idNumLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="appTypeLabel">Application Type</h5>
+          <h5 class="modal-title" id="idNumLabel">ID Number</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -250,67 +222,12 @@
     </div>
   </div>
 
-  <!-- uid -->
-  <div class="modal fade" id="uid" tabindex="-1" role="dialog" aria-labelledby="uidLabel" aria-hidden="true">
+  <!-- exDate -->
+  <div class="modal fade" id="exDate" tabindex="-1" role="dialog" aria-labelledby="exDateLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="uidLabel">UID</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <h3>What to Look For:</h3>
-          <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime placeat aliquid beatae eos
-              itaque.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, laboriosam.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus minus alias natus.</li>
-          </ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- vin -->
-  <div class="modal fade" id="vin" tabindex="-1" role="dialog" aria-labelledby="vinLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="vinLabel">VIN#</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <h3>What to Look For:</h3>
-          <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime placeat aliquid beatae eos
-              itaque.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, laboriosam.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus minus alias natus.</li>
-          </ul>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- signature -->
-  <div class="modal fade" id="signature" tabindex="-1" role="dialog" aria-labelledby="signatureLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="signatureLabel">Signature</h5>
+          <h5 class="modal-title" id="exDateLabel">Expiration Date</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
