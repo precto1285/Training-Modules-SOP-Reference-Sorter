@@ -102,17 +102,20 @@
               <div class="tab-pane fade" id="important" role="tabpanel" aria-labelledby="important-list">
                 <ul class="list-group">
                   <li class="list-group-item">
-                    <button class="btn btn-block bg-white text-dark">
+                    <button type="button" data-toggle="modal" data-target="#iMIDnum"
+                      class="btn btn-block bg-white text-dark">
                       Item Manufacturing ID number
                     </button>
                   </li>
                   <li class="list-group-item">
-                    <button class="btn btn-block bg-white text-dark">
+                    <button type="button" data-toggle="modal" data-target="#iRDate"
+                      class="btn btn-block bg-white text-dark">
                       Item Registration Date
                     </button>
                   </li>
                   <li class="list-group-item">
-                    <button class="btn btn-block bg-white text-dark">
+                    <button type="button" data-toggle="modal" data-target="#nameBuyer"
+                      class="btn btn-block bg-white text-dark">
                       Name of Buyer
                     </button>
                   </li>
@@ -173,6 +176,70 @@
       </div>
     </div>
   </div>
+
+  <!-- Modal -->
+
+  <!-- Item Manufacturing ID number -->
+  <div class="modal fade" id="iMIDnum" tabindex="-1" role="dialog" aria-labelledby="iMIDnumLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="iMIDnumLabel">Item Manufacturing ID Number</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Item Manufacturing ID
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Item Registration Date -->
+  <div class="modal fade" id="iRDate" tabindex="-1" role="dialog" aria-labelledby="iRDateLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="iRDateLabel">Item Registration Date</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Item Registration Date
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Name of Buyer -->
+  <div class="modal fade" id="nameBuyer" tabindex="-1" role="dialog" aria-labelledby="nameBuyerLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="nameBuyerLabel">Name of Buyer</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Name of Buyer
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
